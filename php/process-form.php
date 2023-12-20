@@ -7,7 +7,7 @@ if (isset($_REQUEST['name'],$_REQUEST['email'])) {
     $message = $_REQUEST['message'];
 
     // Set your email address where you want to receive emails.
-    $to = 'yourmail@mail.com';
+    $to = 'herreraquinteroj@gmail.com';
 
     $headers = "From: ".$name." <".$mail."> \r\n";
 
@@ -17,3 +17,4 @@ if (isset($_REQUEST['name'],$_REQUEST['email'])) {
 
 }
 ?>
+
